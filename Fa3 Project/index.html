@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Fa3 Project</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		
+		<section id="about">
+			<div class="about-left-col">
+				<img src="Images/about.png">
+			</div>
+			<div class="about-right-col">
+				<div class="about-text">
+					<h1>The purpose is to teach,<br> bring learning to people</h1><br>
+					<p>Here you will get the latest courses for free. All the courses are self-paced with various assignments for better learning.</p>
+				    <h2>"Learning is not attained by chance, it must be sought for with ardor and attached to with diligence"</h2>
+					<h3>------Abigail Adams</h3><br>
+					<button class="common-btn">Read More</button>
+				</div>
+			</div>
+		</section>
+		
+		<nav id="sideNav">
+			<ul>
+				<li><a href="#">HOME</a></li>
+				<li><a href="#">FEATURES</a></li>
+				<li><a href="#">COURSES</a></li>
+				<li><a href="#">OFFERS</a></li>
+				<li><a href="#">CONTACT US</a></li>
+				<li><a href="#">HELP & SUPPORT</a></li>
+			</ul>
+		</nav>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <div class="social">
+        <div class="btn fb-btn">
+            <i class="fa fa-facebook" aria-hidden="true" id="fb"></i>
+        </div>
+        <div class="btn ig-btn">
+            <i class="fa fa-instagram" aria-hidden="true" id="ig"></i>
+        </div>
+        <div class="btn tw-btn">
+            <i class="fa fa-twitter" aria-hidden="true" id="tw"></i>
+        </div>
+    </div>
+		
+		<img src="images/menu.png" id="menuBtn">
+		
+		<section id="features">
+			<div class="feature-row">
+				<div class="feature-col">
+					<img src="Images/pic-1.png">
+					<h4>Learn Anywhere</h4>
+					<p>Switch between your computer, tablet or mobile devices.</p>
+				</div>
+				<div class="feature-col">
+					<img src="Images/pic-2.png">
+					<h4>Expert Teachers</h4>
+					<p>Learn from industry experts who are passionate about teaching.</p>
+				</div>
+				<div class="feature-col">
+					<img src="Images/pic-3.png">
+					<h4>Unlimited Access</h4>
+					<p>Choose what you'd like to learn from our extensive subscription libraries.</p>
+				</div>
+			</div>
+			<div class="feature-btn">
+				<div class="line">
+						<span class="line-1"></span><br>
+						<span class="line-2"></span><br>
+						<span class="line-3"></span>
+					</div>
+				<button class="common-btn">Start Free Trail</button>
+			</div>
+		</section>
+		
+				<section id="contact">
+			<div class="container contact-row">
+				<div class="contact-left-col">
+					<h1>Sign Up to join our<br>Learning community</h1>
+					<form>
+						<input type="text" placeholder="Enter Name">
+						<input type="email" placeholder="Enter E-mail">
+						<input type="password" placeholder="Enter Password">
+						<div class="btn-box">
+							<button class="common-btn">Sign Up</button>
+							<button class="common-btn">Start Free Trail</button>
+						</div>
+					</form>
+					<div class="line">
+						<span class="line-1"></span><br>
+						<span class="line-2"></span><br>
+						<span class="line-3"></span>
+					</div>
+				</div>
+				<div class="contact-right-col">
+					<center><img src="Images/contact.png"></center>
+				</div>
+			</div>
+		</section>
+		
+<!--	Footer	-->
+		
+		<section id="footer">
+			<div class="container footer-row">
+				<hr>
+				<div class="footer-left-col">
+					<div class="footer-links">
+						<div class="link-title">
+							<h4>Product</h4>
+							<small>Our Plan</small><br>
+							<small>Free Trial</small>
+						</div>
+						<div class="link-title">
+							<h4>About Us</h4>
+							<small>Request Demo</small><br>
+							<small>FAQs</small>
+						</div>
+						<div class="link-title">
+							<h4>Support</h4>
+							<small>Features</small><br>
+							<small>Contact Us</small>
+						</div>
+					</div>
+				</div>
+				<div class="footer-right-col">
+					<div class="footer-info">
+						<div class="copyright-text">
+						
+							<small>support.freespirit.com</small><br>
+							<small>Copyright freespirit</small>
+						</div>
+						<div class="footer-logo">
+							<img  src="images/logo.png">
+							<button class="common-btn">Get Updates</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+
+<center><h5>Made with <span class="heart">❤</span> by Sanjay,Divij,Somay & Tushar</h5></center>
+
+		<script>
+			var menuBtn = document.getElementById('menuBtn');
+			var sideNav = document.getElementById('sideNav');
+			
+			sideNav.style.right = "-250px";
+			menuBtn.onclick = function(){
+				if(sideNav.style.right == "-250px")
+					{sideNav.style.right = "0";}
+				else{sideNav.style.right = "-250px";}
+			}
+		</script>
+		
+	</body>
+</html>
